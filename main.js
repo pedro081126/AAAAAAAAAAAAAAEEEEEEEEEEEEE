@@ -19,8 +19,9 @@ const tempoObjetivo1 = new Date("2024-12-25T00:00:00");
 const tempoObjetivo2 = new Date("2025-03-25T00:00:00");
 const tempoObjetivo3 = new Date("2025-04-25T00:00:00");
 const tempoObjetivo4 = new Date("2025-05-25T00:00:00");
+const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
-function calculaTempo(tempoObjetivo){
+function calculaTempo(tempos[0]);{
     let tempoAtual = new Date();
     let TempoFinal = tempoObjetivo-tempoAtual;
     let segundos = Math.floor(tempoFinal/1000);
